@@ -7,15 +7,15 @@ readme = "README.md"
 packages = [{include = "auton_survival"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-torch = "^1.13"
-numpy = "^1.24"
-pandas = "^1.5"
-tqdm = "^4.66"
-scikit-learn = "^1.2"
-torchvision = "^0.14"
-scikit-survival = "^0.21"
-lifelines = "^0.26"
+python = "^3.10"
+torch = "^2.6.0"
+numpy = "^2.2.4"
+pandas = "^2.2.3"
+tqdm = "^4.67.1"
+scikit-learn = "^1.6.1"
+torchvision = "^0.21.0"
+scikit-survival = "^0.24.0"
+lifelines = "^0.30.0"
 
 [tool.semantic_release]
 version_toml = [
